@@ -1,0 +1,299 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#asset1 {
+    position: absolute;
+    pointer-events: none;
+    max-width: 99%;
+    height: 99vh;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    filter: drop-shadow(-5px 0px 0px #e400c6);
+}
+
+#HTML {
+    position:absolute;
+    pointer-events: none;
+    left:450px;
+    top:400px;
+}
+
+#CSS {
+    position:absolute;
+    pointer-events: none;
+    left:555px;
+    top:400px;
+}
+
+#JS {
+    position:absolute;
+    pointer-events: none;
+    left:670px;
+    top:400px;
+}
+
+#HTML, #CSS, #JS {
+
+width:8%;
+
+}
+
+#cmpe {    font-size:100px;
+    font-weight:700;
+    user-select: none;
+    pointer-events: none;
+    position:absolute;
+    left:120px;
+    font-size:50px;
+    line-height: 45px;
+    top:50px;
+}
+
+#oss, #fc {
+    font-size:50px;
+    font-weight:300;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    font-style: italic;
+    font-weight:700;
+}
+
+#oss {
+    left:150px;
+    top:90px;
+}
+
+#fc {
+    left:170px;
+    top:140px;
+}
+
+.wave {
+    position: absolute;
+    pointer-events: none;
+    bottom:0px;
+    left:0px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 2;
+
+}
+
+.wave svg{
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 204px;
+    transform: rotateY(180deg);
+    transition:0.5s;
+}
+
+.wave .shape-fill {
+    fill: #FF00E2;
+}
+
+.circle {
+    border-radius: 5000px;
+    background-color:#00ffee;
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:200px;
+    top:50px;
+    transition:0.5s ease;
+}
+
+.circle2 {
+    border-radius: 5000px;
+    background-color:#00ffee;
+    width:170px;
+    height:170px;
+    position:absolute;
+    left:525px;
+    top:400px;
+    right:500px;
+    transition: 0.5s ease;
+}
+
+.circle3 {
+    border-radius: 5000px;
+    background-color:#00ffee;
+    width:120px;
+    height:120px;
+    position:absolute;
+    left:300px;
+    top:480px;
+    left:200px;
+    transition:0.5s ease;
+}
+
+.circle4 {
+    border-radius: 5000px;
+    background-color:#00ffee;
+    width:200px;
+    height:200px;
+    position:absolute;
+    right:100px;
+    top:200px;
+    left:1000px;
+    transition:0.5s;
+}
+
+.circle:hover {
+    width:290px;
+    height:290px;
+    left:160px;
+    top:150px;
+    transition: 0.5s ease
+}
+
+.circle2:hover {
+    width:220px;
+    height:220px;
+    left:510px;
+    top:400px;
+    transition: 0.5s ease;
+}
+
+.circle3:hover {
+    width:170px;
+    height:170px;
+    transition: 0.5s ease;
+}
+
+.circle4:hover {
+    width:250px;
+    height:250px;
+    top:300px;
+    transition: 0.5s ease;
+}
+
+
+/* --inicio de abajo-- */
+
+#Why-Neku {
+
+position:absolute;
+left:200px;
+top:710px;
+font-size:40px;
+pointer-events:none;
+}
+
+#our-goals {
+position: absolute;
+left:190px;
+top:750px;
+font-size:30px;
+font-weight:700;
+font-style:italic;
+pointer-events: none;
+}
+
+#our-git ,#work, #in-team {
+
+font-size:50px;
+font-style:italic;
+pointer-events:none;
+}
+
+#git {
+position:absolute;
+right: 250px;
+top:665px;
+width:300px;
+height:300px;
+filter: drop-shadow(10px 5px 0px#ff00d1);
+transition:1s;
+z-index:1;
+}
+
+
+#our-git {
+
+position:absolute;
+right:250px;
+top:970px;
+}
+
+#work {
+
+position: absolute;
+right:250px;
+top:1020px;
+}
+
+#in-team {
+
+position: absolute;
+right:200px;
+top:1070px;
+}
+
+#LicenseLogo {
+position: absolute;
+width:300px;
+height:300px;
+left:500px;
+top:1250px;
+filter: drop-shadow(7px 5px 0px #00ffd7);
+}
+
+#licencia {
+
+position: absolute;
+left: 300px;
+top:1280px;
+
+}
+
+#licencia-publica {
+
+position: absolute;
+left:300px;
+top:1320px;
+
+}
+
+
+#UniteLogo {
+
+position: absolute;
+width:300px;
+height:300px;
+left:500px;
+top:1580px;
+filter:drop-shadow(5px 5px 0px #ff9400);
+}
+
+#buscamos {
+
+position:absolute;
+top:1580px;
+left:300px;
+
+}
+
+#gente {
+
+position: absolute;
+top: 1620px;
+left:300px;
+
+}
+
+#aprender {
+
+position: absolute;
+top:1650px;
+left:300px;
+
+}

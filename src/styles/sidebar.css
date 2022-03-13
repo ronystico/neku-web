@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#barralateral {
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    background-color: #7c00ff;
+    width:13vh;
+    height:100vh;
+    border-radius: 0px 30px 30px 0px;
+    z-index: 3;
+}
+
+#logoweb {
+    width:55px;
+}
+
+#barralateral ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#barralateral ul li {
+    list-style-type: none;
+}
